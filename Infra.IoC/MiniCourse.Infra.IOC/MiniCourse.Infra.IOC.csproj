@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\MiniCourse.Application\MiniCourse.Application.csproj" />
+    <ProjectReference Include="..\..\Infra.Data\MiniCourse.Infra.Data\MiniCourse.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
